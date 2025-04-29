@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venom</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="icon/image-x" href="./favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="venom-head">
+                <img src="./img/venomhead.png" alt="Venom Head">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="navbar-item">Home</li>
+                    <li class="navbar-item">Wallpapers</li>
+                    <li class="navbar-item">Trajes</li>
+                    <li class="navbar-item">Forum</li>
+                    <li class="navbar-item">Gameplays</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="box">
+                <div class="box-title">
+                    <img src="./img/venomlogo.png" alt="Spiderman logo">
+                </div>
+                <div class="box-content">
+                    <p>
+                        Eyy Spiderman, sən o hörümçək tələndə qalmısan e hələ də, ay balam, 2002-dən çıx artıx da.
+                        Qanacağın yoxdu, kostyumun da ucuz parça kimidi – Aliexpress-dən alıblar səni nədi?!
+
+                        Sən özünü qəhrəman hesab eliyirsən? Sən olmasan da bu şəhər yaşayar e, ay canım. Mən tək gəzsəm,
+                        şəhər az qala "clean" olar.
+
+                        Gəl bir dürüst olaq da – sən hər dəfə “great power, great responsibility” deyirsən, amma özün
+                        nəyin məsuliyyətini almısan? Qarşına Venom çıxanda isə tək ayaqqabının biri qalır yerdə,
+                        qaçırsan uje 😏
+
+                        Adam ol, kostyumun rəngini dəyiş. Qara sənə yaraşmır, sən hələ uşaqsan, ged bi' komikslərdə
+                        böyü, sonra gəl danışaq.
+                    </p>
+                </div>
+                <div class="box-footer">
+                    <button class="button get-advice">Falına Bax</button>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=u9Mv98Gr5pY"><button
+                            class="button">Bax</button></a>
+                </div>
+            </div>
+            <div class="mistake-container">
+                <div class="mistake-header">
+                    <img src="./img/venommistake.png" alt="Venom">
+                    <p class="header-text">Venom'un sənin üçün sözü var, gör nə deyir?</p>
+                </div>
+                <div class="mistake-body">
+                    <button onclick="generateRandomMessage()" class="button mistake-button">Bax</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="about card">
+                <div class="card-title">
+                    <h3>01 About</h3>
+                </div>
+                <div class="card-content">
+                    <p>Venom, Spidermanın "çirkin" kostyumunu bir kənara qoyub, nəhayət ona haqqını verir! Bu iki kişi
+                        arasında döyüş sonda məlum olacaq: kim daha çox **"ağır"** gəlir. Amma biz bilirik ki, Venom
+                        Spidermana heç nə verməyəcək - yalnız onu qıracaq! Venomun gücü Spidermanın gözündəki
+                        parıltıları siləcək!</p>
+                </div>
+
+            </div>
+            <div class="support card">
+                <div class="card-title">
+                    <h3>02 Support</h3>
+                </div>
+                <div class="card-content">
+                    <p>Venomun Spidermana nifrəti **tam "hardcore"** dərəcədədir! Adamı düşmən hesab etmək başqa bir
+                        şeydir, amma Venomun **bütün beynindəki kədər** Spidermana qarşı hiddətini artırır. Venom nə
+                        qədər dəstək axtarsa da, Spiderman hər zaman **"çətin vəziyyətdə"** qalacaq. Bir də deyirlər ki,
+                        **"Venom bir növ** Spidermanı **səhnədən atır"**!</p>
+                </div>
+            </div>
+            <div class="team card">
+                <div class="card-title">
+                    <h3>03 Team</h3>
+                </div>
+                <div class="card-content">
+                    <p>Komandamızda yalnız **"güclü"** adamlara yer var! Spiderman sadəcə bir əfsanə, amma Venom
+                        **gerçək** döyüşçüdür! Spidermanın "yumşaq" tərəflərini tapmaq bizim işimizdir, çünki **bizim
+                        komandada heç kim yüngül** deyil! **Venomun yoldaşları** ilə döyüşə çıxdığında Spiderman heç
+                        **"ağlamağa"** da vaxt tapmayacaq!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blood"></div>
+    <audio id="click-sound" src="./audio/click.mp3" preload="auto"></audio>
+    <audio id="venom-sound" src="./audio/we-are-venom.mp3" preload="auto"></audio>
+    <audio id="wtf-sound" src="./audio/what-are-you-doing.mp3" preload="auto"></audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>

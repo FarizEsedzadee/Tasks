@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.first,
+.second {
+    flex: 1;
+}
+
+.first {
+    background-image: url(./img/runner.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+}
+
+.form-header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-header p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-content {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-content label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.form-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-footer label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #555;    
+    display: flex;
+    gap: 5px;
+}
+
+.form-footer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c2027;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.form-footer button:hover {
+    background-color: #8b2d3e;
+}
+
+.form-footer span {
+    font-size: 14px;
+    color: #555;
+}
+
+.form-footer span a {
+    text-decoration: none;
+    color: #5c2027;
+}
+
+.form-footer span a:hover {
+    text-decoration: underline;
+}
